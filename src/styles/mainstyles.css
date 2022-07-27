@@ -1,0 +1,77 @@
+:root{
+  --col-1:calc(100%/12*1);
+  --col-2:calc(100%/12*2);
+  --col-3:calc(100%/12*3);
+  --col-4:calc(100%/12*4);
+  --col-5:calc(100%/12*5);
+  --col-6:calc(100%/12*6);
+  --col-7:calc(100%/12*7);
+  --col-8:calc(100%/12*8);
+  --col-9:calc(100%/12*9);
+  --col-10:calc(100%/12*10);
+  --col-11:calc(100%/12*11);
+  --col-12:calc(100%/12*12);
+}
+
+.row_w{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+}
+.col_1{
+  width: var(--col-1);
+}
+.col_2{
+  width: var(--col-2);
+}
+.col_3{
+  width: var(--col-3);
+}
+.col_3{
+  width: var(--col-3);
+}
+.col_4{
+  width: var(--col-4);
+}
+.col_5{
+  width: var(--col-5);
+}
+.col_6{
+  width: var(--col-6);
+}
+.col_7{
+  width: var(--col-7);
+}
+.col_8{
+  width: var(--col-8);
+}
+.col_9{
+  width: var(--col-9);
+}
+.col_10{
+  width: var(--col-10);
+}
+.col_11{
+  width: var(--col-11);
+}
+.col_12{
+  width: var(--col-12);
+}
+
+.navbar_sticky{
+  position: sticky;
+  top:0;
+  z-index: 1;
+  background: #fff;
+  box-shadow: 2px 1px 8px rgb(120, 176, 248);
+
+}
+.footer_sticky{
+  /* position: sticky; */
+  bottom:0;
+  background: #fff;
+  z-index: 1;
+
+}
